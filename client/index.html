@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- multistep form -->
+    <form class="form join-box">
+      <!-- divs -->
+      <div class="first">
+        <h2 class="fs-title">회원가입</h2>
+        <input type="text" name="email" placeholder="Email" />
+        <input type="password" name="pass" placeholder="Password" />
+        <input type="password" name="cpass" placeholder="Confirm Password" />
+        <div style="margin-top: 22px; display: flex">
+          <button type="button" class="login-btn">로그인</button>
+          <input
+            type="button"
+            name="next"
+            class="next join-success-btn"
+            value="가입완료"
+          />
+        </div>
+      </div>
+    </form>
+
+    <form class="form login-box">
+      <div class="first">
+        <h2 class="fs-title">로그인</h2>
+        <input type="text" name="email" placeholder="Email" />
+        <input type="password" name="pass" placeholder="Password" />
+        <div style="margin-top: 22px; display: flex">
+          <button type="button" class="join-btn">회원가입</button>
+          <input
+            type="button"
+            name="next"
+            class="next login-success-btn"
+            value="로그인"
+          />
+        </div>
+      </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
